@@ -11,5 +11,6 @@ public class CITest extends JavaPlugin {
 
     @Override
     public void onDisable() {
+        Bukkit.getServer().broadcastMessage("Goodbye World");
     }
 }
