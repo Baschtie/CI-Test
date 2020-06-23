@@ -9,6 +9,6 @@ public class TestASimpleMethod {
 
     @Test
     public void testMessage() {
-        assertEquals("§6Hi", MessageBuilder.colorMessageRed("Hi"));
+        assertEquals("§cHi", MessageBuilder.colorMessageRed("Hi"));
     }
 }
