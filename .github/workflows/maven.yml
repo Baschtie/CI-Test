@@ -22,3 +22,5 @@ jobs:
       with:
         name: CI-Test.jar
         path: target/*jar
+    - name: Deploy with maven
+      run: mvn deploy -Dregistry=https://maven.pkg.github.com/Baschtie -Dtoken=GH_TOKEN
