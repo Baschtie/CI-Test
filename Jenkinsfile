@@ -10,8 +10,6 @@ pipeline {
     stage('Build') {
       steps {
         sh 'mvn -B -DskipTests clean package'
-        sh '''git config --global user.name "jenkinsci"
-git config --global user.email "jenkinsci-users@googlegroups.com"'''
       }
     }
 
